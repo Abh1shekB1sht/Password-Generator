@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class=".karla-font">
+        <div class="container">
+            <h2 class="heading">Generate a <span class="highlight">random password</span></h2>
+            <p class="content">Never use a unsecured password again.</p>
+            <button class="generate-btn">Generate Password</button>
+            <hr>
+
+            <div class="input-length">
+                <label class="input-label" for="password-length">Enter Password Length : </label>
+                <input type="text" id="password-length" class="password-length">
+            </div>
+
+            <hr>
+
+            <div class="input-password">
+                <div>
+                    <p id="first-password" class="password"></p>
+                    <p class="status-1 stat"></p>
+                </div>
+                <div>
+                    <p id="second-password" class="password"></p>
+                    <p class="status-2 stat"></p>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
