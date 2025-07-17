@@ -9,7 +9,9 @@ Head over to https://vitejs.dev/ to learn more about configuring vite
 ## About Project
 The project consist of a basic passowrd generator, which some added features (optional)
 
-- [Can generate password according to the provided length]
+- Can generate password according to the provided length
+- Also contain a reset button
+- Click-to-Copy feature
 
 ## About Scrimba
 
